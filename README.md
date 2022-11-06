@@ -28,4 +28,5 @@
 - ✅ JS
 
 
-## 💯 Honest time taken - ⏲️ 34hrs
+## 💯 Honest time taken - ⏲️ 34min
+
