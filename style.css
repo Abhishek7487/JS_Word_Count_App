@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #9c30b7e6, #1f0b9ec9);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 2rem 5rem;
+}
+
+.container .heading {
+  font-size: 4.6rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container .inputField {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.container .inputField .inputText {
+  width: 90%;
+  font-size: 1.6rem;
+  letter-spacing: 0.1;
+  text-align: start;
+  margin: 0 auto;
+  padding: 0.8rem 1.2rem;
+  background-color: #324677c6;
+  color: #ddd;
+  border: none;
+  border-radius: 10px;
+}
+
+.container .inputField .inputText:focus {
+  outline: none;
+}
+
+.container .inputField .inputText:focus::placeholder {
+  color: transparent;
+}
+
+.container .inputField .countBtn {
+  background-color: #9fccfa;
+  color: #333;
+  align-self: center;
+  border: none;
+  border-radius: 3px;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.1s;
+}
+
+.container .inputField .countBtn:hover {
+  cursor: pointer;
+  background-color: #9fccfada;
+}
+
+.container .message {
+  font-size: 2.4rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container .number {
+  font-size: 4.6rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 500;
+  color: #ff0d0d;
+}
